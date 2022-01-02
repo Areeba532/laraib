@@ -1,0 +1,93 @@
+body{
+background-image: url("back.jpg");
+}
+header{
+ margin-top: -10px;
+ margin-left: -10px;
+ display: flex;
+ height: 100px;
+ width: 101.5%;
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+header img{
+height: 120px;
+}
+header label{
+text-shadow: 2px 2px #e75480;
+font-size: 40px;
+font-weight: bold;
+margin-top: 30px;
+margin-left: 350px;
+}
+nav{
+margin-top: -10px;
+margin-left: -10px;
+width: 101.5%;
+background: linear-gradient(#D050D0, #9198e5);
+height: 50px;
+}
+nav button{
+text-shadow: 2px 2px pink;
+background: linear-gradient(30deg, #e75480, lightblue);
+font-size: 15px;
+font-weight: bold;
+height: 50px;
+width: 200px;
+margin-left: 150px;
+margin-right: -130px;
+}
+nav button:hover{
+transform: scale(0.9);
+transition: 0.3s;
+}
+a{
+text-decoration: none;
+color: black;
+}
+#main{
+height: 350px;
+background-size: 100% 350px;
+background-image: url("kapra.jpg");
+background-repeat: no-repeat;
+}
+.form{
+padding-top: 30px;
+padding-left: 150px;
+background-repeat: no-repeat;
+background-size: 100% 350px;
+width: 100%;
+height: 350px;
+background-image: url('form.jpg');
+}
+#lat{
+height: 150px;
+width: 300px;
+margin-right: 0px;
+margin-top: 10px;
+margin-left: 110px;
+}
+#lat img{
+height: 150px;
+width: 300px;
+}
+#lat img:hover{
+transform: scale(0.9);
+transition: 0.3s;
+}
+footer{
+height: 135px;
+background: linear-gradient(to bottom, #D050D0 0%, #33ccff 100%);
+}
+footer div{
+padding-left: 10px;
+padding-top: 30px;
+font-size: 18px;
+font-weight: bold;
+}
+.label{
+  font-family: Avenir Next, sans-serif;
+  font-weight: 900; text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block; text-shadow: 0 0 0.05em yellow, 0 0 0.2em purple, 0 0 0.3em pink;
+}
